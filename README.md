@@ -55,7 +55,7 @@ At this point, the Cordova app ready to go. The web environment has been modifie
 
 To start the Cordova app, a *platform* is required. In the Cordova context, a platform is basically a target for the app. Platforms could be iOS, Android or [others](https://cordova.apache.org/docs/en/latest/#develop-for-platforms). To add a platform, simply type `cordova platforms add ios` where **ios** is the name of the platform. Then type `cordova run ios` where **ios** is the platform to run.
 
-Once the device testing phase is done and your app is ready for deployment, simply run `cordova run ios --release --device` where **ios** is the platform to build to. This will create a distribution build of the app that can then be distributed through the App store or the Google Play store.
+Once the device testing phase is done and your app is ready for deployment, simply run `cordova build ios --release --device` where **ios** is the platform to build to. This will create a distribution build of the app that can then be distributed through the App store or the Google Play store.
 
 Creating the app
 1. `cordova create app`
